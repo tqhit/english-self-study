@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <main>
-            <router-view></router-view>
-        </main>
-    </div>
+    <component :is="this.$route.meta.layout || 'div'">
+        <router-view></router-view>
+    </component>
 </template>
 
 <script>

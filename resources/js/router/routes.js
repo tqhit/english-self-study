@@ -1,10 +1,12 @@
-import ExampleComponent from "../components/ExampleComponent.vue";
+import Default from "../layouts/Default.vue";
+import Home from "../pages/Home.vue";
 
 const routes = [
     {
         path: "/",
         name: "home",
-        component: ExampleComponent,
+        component: Home,
+        meta: { layout: Default },
     },
 ];
 
