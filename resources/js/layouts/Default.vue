@@ -13,7 +13,7 @@ export default {
 <style scoped="scss">
 .main {
     max-width: 800px;
-    min-height: 100vh;
+    min-height: 101vh;
     background-color: white;
 }
 </style>
